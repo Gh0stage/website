@@ -1,0 +1,104 @@
+body
+{
+padding: 0px;
+background-color: black;
+height: 2000px;
+}
+
+
+header
+{
+background-color:black;
+width: 100%;
+height: 40px;
+margin: auto;
+padding: 10px;
+float: left;
+position: relative;
+top: -60px;
+}
+
+#headerLogo
+{
+margin-left: 20px;
+width: 100px;
+height: 100px;
+position: relative;
+top: +140px;
+left: -20px;
+
+
+}
+.sticky
+{
+position: fixed;
+/*float: left;*/
+}
+.headerMenu ul 
+{
+/*float: left;*/
+text-align: center;
+margin-left: 20px;
+margin-top: 60px;
+
+display: inline;
+float: left;
+
+}
+.headerMenu ul li
+{
+    display: inline;
+    float: left;
+    position: relative;
+    top: -170px;
+    padding-left: 150px;
+    width: 250px;
+    
+}
+.headerMenu ul li a
+{
+    display: block;
+    text-align: center;
+    
+}
+
+a
+{
+text-decoration: none;
+color: white;
+background-color: red;
+display: block;
+padding: 20px;
+}
+hr
+{
+border-color: red;
+width: 90%;
+margin: 0% 5%;
+position: relative;
+top: -156px;
+}
+#magIQText p
+{
+font: 30px bolder;
+color: white;
+background-color: black;
+position: relative;
+left: +110px;
+}
+
+#magIQText p span
+{
+color: red;
+font-size: 60px
+}
+#clear
+{
+clear: left;
+}
+#test
+{
+color: springgreen;
+position:relative;
+top: +20px;;
+}
