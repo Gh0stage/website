@@ -2,6 +2,10 @@
 <html>
 <head>
     <style>
+        body
+        {
+            background-color: black;
+        }
         #navbar
         {
             overflow: hidden;
@@ -23,8 +27,18 @@
             text-decoration: none;
             text-align: center;
             height: 33px;
+            width: 233px;
             
         }
+        #navbar #hr
+        {
+            clear: left;
+            visibility: visible;
+            width: 1500px;
+            height: 1px;
+            background-color: red;
+        }
+       
         .content
         {
             padding: 16px;
@@ -52,6 +66,20 @@
             height: 150px;
             width: 150px;
         }
+        #logoTekst p
+        {
+            font: 30px bolder;
+            color: white;
+            float: left;
+            margin-left: 15px;
+            margin-top: 45px;
+        }
+        #logoTekst span
+        {
+            color: red;
+            font-size: 60px
+        }
+
     </style>
   
 </head>
@@ -60,9 +88,15 @@
      <div id="headerLogo">
         <img src="images/logo.png">
      </div>
+     <div id="logoTekst">
+        <div id="magIQText">
+            <p>mag<br> <span>IQ</span></p>			
+        </div>		
+     </div>
      <a href="">pagina 1</a>
      <a href="">pagina 2</a>
      <a href="">pagina 3</a>
+     <div id="hr"></div>
  </div>
  <script>
     // When the user scrolls the page, execute myFunction
@@ -83,7 +117,6 @@
     }
  }   
 </script>
- <h1>test</h1>
  <br clear="left">
 </body>
 </html>
