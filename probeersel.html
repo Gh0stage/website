@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #navbar
+        {
+            overflow: hidden;
+            background: black;
+            width: 1500px;
+        }
+        /* css voor rode link vakjes */
+        #navbar a 
+        {
+            float: left;
+            display: block;
+            color: white;
+            background-color: red;
+            padding: 14px;
+            margin-top: 33px;
+            margin-right: 75px;
+            margin-bottom: 33px;
+            margin-left: 75px;
+            text-decoration: none;
+            text-align: center;
+            height: 33px;
+            
+        }
+        .content
+        {
+            padding: 16px;
+        }
+        .sticky
+        {
+            position: fixed;
+            top: 0;
+            width: 2000px;
+        }
+        .sticky + .content
+        {
+            padding-top: 60px;
+        }
+        #headerLogo
+        {
+        margin-left: 20px;
+        width: 100px;
+        height: 100px;
+        float: left;
+        border: 10px solid rgb(0, 0, 50);
+        background-image: url("images/logo.png");
+        }
+    </style>
+  
+</head>
+<body>
+ <div id="navbar">
+     <div id="headerLogo">
+
+     </div>
+     <a href="">pagina 1</a>
+     <a href="">pagina 2</a>
+     <a href="">pagina 3</a>
+ </div>
+ <script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+    if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+     } else {
+         navbar.classList.remove("sticky");
+    }
+ }   
+</script>
+ <h1>test</h1>
+ <br clear="left">
+</body>
+</html>
