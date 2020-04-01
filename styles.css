@@ -1,4 +1,4 @@
-  body
+        body
         {
             background-color: black;
         }
@@ -84,4 +84,10 @@
         {
             width: 766px;
             height: auto;
+        }
+        #footer
+        {
+            height: 200px;
+            background-color: black;
+            color: white;
         }
