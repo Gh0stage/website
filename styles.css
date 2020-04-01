@@ -7,6 +7,8 @@
             overflow: hidden;
             background: black;
             width: 1350px;
+            height: 195px; 
+            float: left;        
         }
         /* css voor rode link vakjes */
         #navbar a 
@@ -25,7 +27,7 @@
             height: 33px;
             width: 233px;
             font-family: "Comic Sans MS", cursive, sans-serif;
-            font-size: 16px;
+            font-size: 20px;
             
         }
         #navbar a:hover
@@ -105,8 +107,9 @@
         }
         #slider
         {
-            width: 766px;
-            height: auto;
+            width: 1350px;
+            height: 450px;
+            background-image: url(images/Slider1.jpg);
         }
         #footer
         {
