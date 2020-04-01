@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css" type="text/css">
+  <title>MagIQ</title>
+</head>
+<body>
+ <div id="navbar">
+     <div id="headerLogo">
+        <img src="images/logo.png">
+     </div>
+     <div id="logoTekst">
+        <div id="magIQText">
+            <p>mag<br> <span>IQ</span></p>			
+        </div>		
+     </div>
+     <a href="">Hoofdpagina</a>
+     <a href="">Producten</a>
+     <a href="">Tutorials</a>
+     <div id="hr"></div>
+ </div>
+ <div id="ruimteOnderNav"></div>
+ <script>
+    // When the user scrolls the page, execute myFunction
+    window.onscroll = function() {myFunction()};
+
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+    if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+     } else {
+         navbar.classList.remove("sticky");
+    }
+ }   
+</script>
+ <br clear="left">
+ <div id="content">
+     <div id= "slider">
+         <div id= "slider_1" > <!-- This is the first slide-->
+            <img src="images/Slider1.jpg">
+         </div>
+         
+     </div>
+ </div>
+ <div id="footer">
+     
+ </div>
+</body>
+</html>
