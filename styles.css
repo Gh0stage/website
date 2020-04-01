@@ -1,107 +1,82 @@
-body
-{
-padding: 0px;
-background-color: black;
-height: 2000px;
-}
-
-
-header
-{
-background-color:black;
-width: 100%;
-height: 40px;
-margin: auto;
-padding: 10px;
-float: left;
-position: relative;
-top: -60px;
-}
-
-#headerLogo
-{
-margin-left: 20px;
-width: 100px;
-height: 100px;
-position: relative;
-top: +140px;
-left: -20px;
-border: 10px solid rgb(0, 0, 50);
-border-radius:5px;
-
-
-}
-.sticky
-{
-position: fixed;
-/*float: left;*/
-}
-.headerMenu ul 
-{
-/*float: left;*/
-text-align: center;
-margin-left: 20px;
-margin-top: 60px;
-
-display: inline;
-float: left;
-
-}
-.headerMenu ul li
-{
-    display: inline;
-    float: left;
-    position: relative;
-    top: -170px;
-    text-align: center;
-    padding-left: 255px;
-    width: 250px;
-    
-}
-.headerMenu ul li a
-{
-    display: block;
-    text-align: center;
-    
-}
-
-a
-{
-text-decoration: none;
-color: white;
-background-color: red;
-display: block;
-padding: 20px;
-}
-hr
-{
-border-color: red;
-width: 90%;
-margin: 0% 5%;
-position: relative;
-top: -156px;
-}
-#magIQText p
-{
-font: 30px bolder;
-color: white;
-background-color: black;
-position: relative;
-left: +110px;
-}
-
-#magIQText p span
-{
-color: red;
-font-size: 60px
-}
-#clear
-{
-clear: left;
-}
-#test
-{
-color: springgreen;
-position:relative;
-top: +20px;;
-}
+  body
+        {
+            background-color: black;
+        }
+        #navbar
+        {
+            overflow: hidden;
+            background: black;
+            width: 1350px;
+        }
+        /* css voor rode link vakjes */
+        #navbar a 
+        {
+            float: left;
+            display: block;
+            color: white;
+            background-color: red;
+            padding: 14px;
+            margin-top: 33px;
+            margin-right: 35px;
+            margin-bottom: 33px;
+            margin-left: 75px;
+            text-decoration: none;
+            text-align: center;
+            height: 33px;
+            width: 233px;
+            
+        }
+        #navbar #hr
+        {
+            clear: left;
+            visibility: visible;
+            width: 1500px;
+            height: 1px;
+            background-color: red;
+            
+        }
+       
+        .content
+        {
+            padding: 16px;
+        }
+        .sticky
+        {
+            position: fixed;
+            top: 0;
+            width: 2000px;
+        }
+        .sticky + .content
+        {
+            padding-top: 60px;
+        }
+        #headerLogo
+        {
+        margin-left: 20px;
+        width: 100px;
+        height: 100px;
+        float: left;
+        border: 10px outset rgb(0, 0, 50);
+        }
+        #headerLogo img
+        {
+            height: 150px;
+            width: 150px;
+        }
+        #logoTekst p
+        {
+            font: 30px bolder;
+            color: white;
+            float: left;
+            margin-left: 15px;
+            margin-top: 45px;
+        }
+        #logoTekst span
+        {
+            color: red;
+            font-size: 60px
+        }
+        #content
+        {
+            color: white;
+        }
