@@ -7,7 +7,6 @@
             overflow: hidden;
             background: black;
             width: 1350px;
-
         }
         /* css voor rode link vakjes */
         #navbar a 
@@ -54,7 +53,11 @@
             background-color: red;
             
         }
-       
+       #ruimteOnderNav /*strook onder de navbar*/
+       {
+        width: 1350px;
+        visibility: visible;
+       }
         .content
         {
             padding: 16px;
