@@ -26,6 +26,22 @@
             width: 233px;
             
         }
+        #navbar a:hover
+        {
+            float: left;
+            display: block;
+            color: white;
+            background-color:rgb(150, 0,100);
+            padding: 14px;
+            margin-top: 33px;
+            margin-right: 35px;
+            margin-bottom: 33px;
+            margin-left: 75px;
+            text-decoration: none;
+            text-align: center;
+            height: 33px;
+            width: 233px;
+        }
         #navbar #hr
         {
             clear: left;
