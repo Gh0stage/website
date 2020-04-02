@@ -107,6 +107,7 @@
         }
         #slider
         {
+            visibility: visible;
             width: 1350px;
             height: 450px;
             background-image: url(images/Slider1.jpg);
