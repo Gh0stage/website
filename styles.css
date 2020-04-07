@@ -55,7 +55,7 @@
             background-color: red;
             
         }
-       #ruimteOnderNav /*strook onder de navbar*/
+       #ruimteAchterNav /*strook achter de navbar*/
        {
         width: 1350px;
         height: 195px;
@@ -72,7 +72,7 @@
             width: 2000px;
         }
         .sticky + .content
-        {
+        { 
             padding-top: 60px;
         }
         #headerLogo
@@ -105,12 +105,14 @@
         {
             color: white;
         }
-        #slider
+        #sliderWrapper
         {
-            visibility: visible;
             width: 1350px;
             height: 450px;
-            background-image: url(images/Slider1.jpg);
+        }
+        #slide_1
+        {
+            background-image: url(images/Slide_1.jpg);
         }
         #footer
         {
