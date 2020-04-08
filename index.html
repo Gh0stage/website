@@ -11,7 +11,7 @@
      </div>
      <div id="logoTekst">
         <div id="magIQText">
-            <p>mag<br> <span>IQ</span></p>			
+         <!--   <p>mag<br> <span>IQ</span></p> -->			
         </div>		
      </div>
      <a href="">Hoofdpagina</a>
@@ -22,7 +22,7 @@
  <div id="ruimteAchterNav"></div>
  <script>
     // When the user scrolls the page, execute myFunction
-    window.onscroll = function() {myFunction()};
+    window.onscroll = function() {stickyHeader()};
 
     // Get the navbar
     var navbar = document.getElementById("navbar");
@@ -31,7 +31,7 @@
     var sticky = navbar.offsetTop;
 
     // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-    function myFunction() {
+    function stickyHeader() {
     if (window.pageYOffset >= sticky) {
           navbar.classList.add("sticky")
      } else {
@@ -41,20 +41,25 @@
 </script>
  <br clear="left">
  <div id="content">
-     <div id= "sliderWrapper">
-         <div id= "slide_1" class="slide" > <!-- This is the first slide-->
-            <div class="sliderHeading">
-                <h2>
-                    Cardistry
-                </h2>
-                <br>
-                <p>
-                    Explore the magic of cards!
-                </p>
-            </div>
-         </div>
-         
-     </div>
+   <div id="brand">
+      <div id="brandImg" class="parallax">
+
+      </div>
+      <div id="brandTxt" class="dark" align="center">
+         <H2>MagIQ: Elevate your show</H2>
+         <hr style="border-color:red;">
+         <p>We are proud to say we only deliver the best kind of magic in a box!<br> We give you all the tools you'll ever need to blow your publics minds!</p>
+      </div>
+   </div>
+   <div id="cardistry">
+      <div id="cardistryImg" class="parallax">
+
+      </div>
+      <div id="cardistryTxt" class="light">
+
+      </div>
+   </div>
+
  </div>
  <div id="footer">
      

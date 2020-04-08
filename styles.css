@@ -1,6 +1,20 @@
         body
         {
             background-color: black;
+            padding: none;
+        }
+        h2
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 50px;
+            font-weight: 600;
+            
+        }
+        p
+        {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            font-weight: 500;
         }
         #navbar
         {
@@ -57,14 +71,10 @@
         }
        #ruimteAchterNav /*strook achter de navbar*/
        {
-        width: 1350px;
+        width: 1345px;
         height: 195px;
         visibility: visible;
        }
-        .content
-        {
-            padding: 16px;
-        }
         .sticky
         {
             position: fixed;
@@ -104,15 +114,36 @@
         #content
         {
             color: white;
+            width: 1345px;
+            height: auto;
         }
-        #sliderWrapper
+        .parallax 
         {
-            width: 1350px;
-            height: 450px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
-        #slide_1
+        .light
         {
-            background-image: url(images/Slide_1.jpg);
+            background-color: lightslategray;
+            color:darkred;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .dark
+        {
+            background-color: darkslategray;
+            color: whitesmoke;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #brandImg
+        {
+            background-image: url(images/cards_Home.jpg);
+            height:500px;
+        }
+        #brandTxt
+        {
+            height:200px;
         }
         #footer
         {
